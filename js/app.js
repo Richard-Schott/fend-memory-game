@@ -29,10 +29,11 @@ function shuffle(array) {
 
 $(document).ready(function() {
 	$('.card').on('click', function(event) {
-		$(this).toggle('.fa');
+		$('.fa').toggleClass();
 	});
 });
 
+/*
 function toggleCard() {
 	let side = addEventListener.toggle('.card');
 	if (side.display === "none") {
@@ -42,7 +43,7 @@ function toggleCard() {
 	}
 	return side;
 }
-
+*/
 /*
 function toggleCard() {
 	let side = addEventListener.toggle('.card');

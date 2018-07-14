@@ -26,22 +26,12 @@ function shuffle(array) {
 }
 
 //event listener for a card
-/*
-FUNNY but it causes individual pieces to fade away
-$(document).ready(function() {
-	$('.card').on('click', function(event) {
-		$(this).toggle('i');
-	});
-});
-*/
 
-/*
 $(document).ready(function() {
 	$('.card').on('click', function(event) {
 		$(this).toggle('.fa');
 	});
 });
-*/
 
 function toggleCard() {
 	let side = addEventListener.toggle('.card');
@@ -68,6 +58,15 @@ function toggleCard() {
 document.getElementByID('#card').click(console.log('CARD'));
 $('li').getElementById('card').on('click', );
 /*
+
+/*
+FUNNY but it causes individual pieces to fade away
+$(document).ready(function() {
+	$('.card').on('click', function(event) {
+		$(this).toggle('i');
+	});
+});
+*/
 
 
 /*

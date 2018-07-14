@@ -27,15 +27,10 @@ function shuffle(array) {
 
 //card flipping event listener
 $(document).ready(function() {
-	$('.card').on('click', function(event) {
-		$('.fa').toggleClass();
+	$('li').on('click', function(event) {
+		$('i').toggle();
 	});
-		$('.fa').on('click', function(event) {
-			$('.card').toggleClass();
-		});
 });
-
-
 
 /*
  * set up the event listener for a card. If a card is clicked:

@@ -24,39 +24,36 @@ function shuffle(array) {
 
     return array;
 }
-//	$('.card').toggle();
+//card flipping event listener
+//Akyya, thanks a lot!
+//should this be flipCard instead?
+$('.card').on('click', function(event) {
+	let clickEvent = event.target;
+	clickEvent.classList.toggle('open');
+	clickEvent.classList.toggle('show');
+	console.log("CLICKED CARD");
+});
+
 /*
-$(document).on('click', clickFunction(event)) {
-	cards.forEach(clickFunction(index) {
-		$('.card').toggle();
-	});
-});
-*/
-
-
-//card flipping event listener
-$(document).on('click', function(event) {
-	$('.card').toggle();
-});
-
-//card flipping event listener
-const cards = document.getElementsByClassName('.card');
 function clickTheCard() {
-	let clickedCard = event.target;
-	if ('click'.event.target === '.card') {
-		event.target.toggle();
+	let querySelector = event.target;
+	if (event.target === '.card') {
+		querySelector.toggle('.open');
+		querySelector.toggle('.show');
 	}
 	return clickedCard;
 }
+*/
+
 /*
-function toggleCard() {
-	let side = addEventListener.toggle('.card');
-	if (event.target === '.card') {
-		event.toggle();
-	}
-	return side;
+if (cards = ($".card") {
+	'.match';
 }
 */
+
+
+//card flipping event listener
+
 
 /*
  * set up the event listener for a card. If a card is clicked:

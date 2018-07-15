@@ -33,18 +33,17 @@ $(document).on('click', clickFunction(event)) {
 });
 */
 
-/*
+
 //card flipping event listener
 $(document).on('click', function(event) {
 	$('.card').toggle();
 });
-*/
 
 //card flipping event listener
 const cards = document.getElementsByClassName('.card');
 function clickTheCard() {
 	let clickedCard = event.target;
-	if (event.target === '.card') {
+	if ('click'.event.target === '.card') {
 		event.target.toggle();
 	}
 	return clickedCard;

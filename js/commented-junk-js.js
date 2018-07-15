@@ -1,4 +1,12 @@
 /*
+$(document).ready(function(event) {
+	$('.card').on('click', function(event) {
+		$('.card').toggleClass();
+	});
+});
+*/
+
+/*
 function toggleCard() {
 	let side = addEventListener.toggle('.card');
 	if (side.display === "none") {
@@ -33,3 +41,4 @@ $(document).ready(function() {
 	});
 });
 */
+

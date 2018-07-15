@@ -26,10 +26,8 @@ function shuffle(array) {
 }
 
 //card flipping event listener
-$(document).ready(function() {
-	$('li').on('click', function(event) {
-		$('i').toggle();
-	});
+$(document).on('click', function(event) {
+	$('.card').toggle();
 });
 
 /*

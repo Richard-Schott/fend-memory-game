@@ -41,4 +41,4 @@ Kj from the FEND Slack gave me the final bit of help that I needed to have my fi
 2. Stack Overflow: "jQuery: How to get the event object in an event handler function without passing it as an argument?"
 	https://stackoverflow.com/questions/5849370/jquery-how-to-get-the-event-object-in-an-event-handler-function-without-passing
 3. "HTML DOM classList Property" on w3schools: https://www.w3schools.com/jsref/prop_element_classlist.asp
-4.
+4. "Stack Overflow: JavaScript - pushing Elements with same Class into array & using each in a loop": https://stackoverflow.com/questions/8899661/javascript-pushing-elements-with-same-class-into-array-using-each-in-a-loop

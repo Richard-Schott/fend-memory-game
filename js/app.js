@@ -33,26 +33,15 @@ $('.card').on('click', function(event) {
 	clickEvent.classList.toggle('show');
 	console.log("CLICKED CARD");
 });
+//store flipped cards into an array, then push them into it. This should be a function.
+let flippedCards = [];
 
-/*
-function clickTheCard() {
-	let querySelector = event.target;
-	if (event.target === '.card') {
-		querySelector.toggle('.open');
-		querySelector.toggle('.show');
-	}
-	return clickedCard;
-}
-*/
 
 /*
 if (cards = ($".card") {
 	'.match';
 }
 */
-
-
-//card flipping event listener
 
 
 /*

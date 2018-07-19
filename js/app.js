@@ -33,9 +33,16 @@ $('.card').on('click', function(event) {
 	clickEvent.classList.toggle('show');
 	console.log("CLICKED CARD");
 });
-//store flipped cards into an array, then push them into it. This should be a function.
-let flippedCards = [];
 
+//store flipped cards into an array, then push them into it. This should be a function.
+//clickEvent isn't global scope, though. How exactly am I identifying what I'm pushing? Events and variables are function scope.
+function cardStorage() {
+	let flippedCards = [];
+	if (cardStorage.length > 16) {
+		flippedCards.push(event);
+		console.log(cardStorage);
+	}
+};
 
 /*
 if (cards = ($".card") {

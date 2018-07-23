@@ -17,6 +17,20 @@ function clickTheCard() {
 	return clickedCard;
 }
 */
+/*
+function cardStorage() {
+	let flippedCards = [];
+	if (cardStorage.length > 16) {
+		flippedCards.push(event);
+	} console.log(cardStorage);
+}; cardStorage();
+*/
+
+/*
+if (cards = ($".card") {
+	'.match';
+}
+*/
 
 /*
 const cards = document.getElementsByClassName('.card');

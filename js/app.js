@@ -1,7 +1,12 @@
 /*
  * Create a list that holds all of your cards
  */
-
+ const theCards = ['fa-diamond', 'fa-paper-plane-o', 'fa-anchor', 'fa-bolt', 'fa-cube', 'fa-anchor', 'fa-leaf', 'fa-bicycle', 'fa-diamond', 'fa-bomb', 'fa-leaf', 'fa-bomb', 'fa-bolt', 'fa-bicycle', 'fa-paper-plane-o', 'fa-cube'];
+function matchCards() {
+	$('.card').on('click', function(event) {
+		this.theCards.
+	}
+}
 
 /*
  * Display the cards on the page
@@ -24,9 +29,8 @@ function shuffle(array) {
 
     return array;
 }
-//card flipping event listener
-//Akyya, thanks a lot!
-//should this be flipCard instead?
+
+// Card flipp event listener
 const flippedCards = [];
 $('.card').on('click', function(event) {
 	let clickEvent = event.target;
@@ -38,29 +42,6 @@ $('.card').on('click', function(event) {
 	console.log("CLICKED CARD");
 	console.log(flippedCards);
 });
-//How am I getting these? 
-//i is back; li is front. Front has id, pass them into array. randomized array, pass elements to it. array held image list; img tag with src
-//store flipped cards into an array, then push them into it. This should be a function.
-//clickEvent isn't global scope, though. How exactly am I identifying what I'm pushing? Events and variables are function scope.
-//call array into on click, put this into the other function. copy/paste into other one.
-//id i elements in an array (e.g. i fafa bicycle, then compare id getElementById)
-//convert to string, compare string data in a conditional for equality?
-//possible to set an id and retrieve it, perhaps in an object.
-//retrieve info from child node in the array, get text, call it, object gets id, compared it (innerHTML) and textContent
-/*
-function cardStorage() {
-	let flippedCards = [];
-	if (cardStorage.length > 16) {
-		flippedCards.push(event);
-	} console.log(cardStorage);
-}; cardStorage();
-
-/*
-if (cards = ($".card") {
-	'.match';
-}
-*/
-
 
 /*
  * set up the event listener for a card. If a card is clicked:

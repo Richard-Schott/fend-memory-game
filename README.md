@@ -22,18 +22,23 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 
 ## Comments
-1. My first event, a click function, needs to have a variable to define the cards. I approached this backwards, using the document to toggle .card.
-2. Use an event parameter to target, otherwise he inner function targets all cards when the toggle is applied.
-3. Matthew Cranford's guide, and Stack Overflow, say that I need to create a function that passes the click event handler to it.
-	Specifically, I need to pass the click event to a function that toggles the card elements. In a prior exercise, I noticed the toggle
-	automatically created a class or 'open'. Do I need an open and closed class toggle?
-4. 
-5. ".match" appears when two cards of the same type appear. A conditional is necessary to demonstrate equal pairs.
-6. ".card" appears blank
-7. ".open" and ".show" appear on an unmatched card.
+1. Use an event parameter to target, otherwise he inner function targets all cards when the toggle is applied.
+2. ".match" appears when two cards of the same type appear. A conditional is necessary to demonstrate equal pairs.
+3. ".open" and ".show" appear on an unmatched card.
+
+## Guiding ideas
+
+1. i is back; li is front. Front has id, pass them into array. randomized array, pass elements to it. array held image list; img tag with src
+2. Store flipped cards into an array, then push them into it. This should be a function.
+3. clickEvent isn't global scope, though. How exactly am I identifying what I'm pushing? Events and variables are function scope.
+4. call array into on click, put this into the other function. copy/paste into other one.
+5. id i elements in an array (e.g. i fafa bicycle, then compare id getElementById)
+6. convert to string, compare string data in a conditional for equality?
+7. possible to set an id and retrieve it, perhaps in an object.
+8. retrieve info from child node in the array, get text, call it, object gets id, compared it (innerHTML) and textContent
 
 ## Acknowledgements
-First, I'd like to thank Sachin, Judi Portwood, Lou, and drunkenkismet from the Grow With Google FEND Slack for their help.
+First, I'd like to thank Akyya, Sachin, Judi Portwood, Lou, and drunkenkismet from the Grow With Google FEND Slack for their help.
 Kj from the FEND Slack gave me the final bit of help that I needed to have my first usable function!
 
 ##References
